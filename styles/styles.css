@@ -47,7 +47,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.reasons-slogan {
+.reasons {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
@@ -97,4 +97,54 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+  text-transform: none;
+}
+
+.options-item {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.option-description {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-color: #ffffff;
+  text-align: center;
+  text-transform: none;
+}
+
+.go-if-ready {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.reasons-answer {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: none;
+  color: #333333;
+  background-color: #ffffff;
+
 }
