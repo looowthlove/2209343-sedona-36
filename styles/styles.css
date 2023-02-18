@@ -16,14 +16,8 @@
 
 body {
   font-family: "PT Sans", sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 26px;
-  color: #000000;
-  background-color: #ffffff;
-}
-
-.page-header {
-  color: #000000;
   background-color: #ffffff;
 }
 
@@ -31,155 +25,120 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
-  color: #000000;
-  background-color: #ffffff;
+  color: inherit;
   text-decoration: none;
-  text-transform: capitalize;
-  text-align: center;
 }
 
-.want-be-here {
-  font-style: normal;
+.navigation-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  display: flex;
   align-items: center;
-  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #756157
+  background-color: #756157;
+  text-decoration: none;
 }
 
 .main-header-hero {
-  background-color: #ffffff;
+  background-color: #86e0f0;
   color: #000000;
-  background-image: url(../images/index-background.jpg);
-  background-size: 100% auto;
+  background-image: url("../images/index-background.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
-.reasons {
-  font-family: "PT Sans";
-  font-style: normal;
+.slogan {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  text-align: center;
   text-transform: uppercase;
+  text-align: center;
 }
 
-.reasons-answer {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
+.answer {
+  color: #333333;
   text-align: center;
+}
+
+.email-footer-index .answer {
+  color: inherit;
+}
+
+.reasons {
+  text-align: center;
+}
+
+.reasons-item-first-last {
+  color: #ffffff;
+  background-color: #82b3d3;
 }
 
 .reasons-item-summary {
-  font-family: "PT Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   color: #000000;
-  text-align: center;
   text-transform: uppercase;
-  background-color: #ffffff;
+  color: inherit;
 }
 
-.reasons-item-summary-first-last {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  text-transform: uppercase;
+.reasons-advantage {
+  font-size: 18px;
+  line-height: 21px;
   color: #ffffff;
   background-color: #000000;
 }
 
-.reasons-advantage {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-  text-transform: none;
+.reasons-item-first-last .reasons-advantage {
+  color: inherit;
 }
 
 .options-item {
-  font-family: "PT Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   color: #000000;
-  background-color: #ffffff;
   text-align: center;
   text-transform: uppercase;
 }
 
 .option-description {
-  font-family: "PT Sans";
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-  background-color: #ffffff;
   text-align: center;
   text-transform: none;
 }
 
-.go-if-ready {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  color: #000000;
-  background-color: #ffffff;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
 .reasons-answer {
-  font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
   text-transform: none;
   color: #333333;
-  background-color: #ffffff;
 
 }
 
-.go-if-ready a {
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #000000;
+.search {
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
 }
 
 .send-form-footer {
-  font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
   text-align: center;
-  color: #000000;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #000000;
 }
 
 .description-form-footer {
-  font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -189,16 +148,15 @@ body {
 }
 
 .field {
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   align-items: center;
   color: #000000;
-  background-color: #ffffff;
 }
 
 .newsletter-button {
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -211,7 +169,6 @@ body {
 }
 
 .contacts-phone {
-  font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
@@ -222,7 +179,6 @@ body {
 }
 
 .inner-header-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
@@ -231,7 +187,6 @@ body {
 }
 
 .breadcrumbs-link {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
@@ -239,8 +194,11 @@ body {
   background-color: #000000;
 }
 
+.inner-header {
+  background-color: #000000;
+}
+
 .catalog-filter-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -250,7 +208,6 @@ body {
 }
 
 .control-input {
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -259,7 +216,6 @@ body {
 }
 
 .button {
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -268,7 +224,6 @@ body {
 }
 
 .button-default {
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -277,7 +232,6 @@ body {
 }
 
 .inner-header-title-result {
-  font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -297,7 +251,6 @@ body {
 }
 
 .offer-card-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -307,7 +260,6 @@ body {
 }
 
 .offer-hotel-item {
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -315,48 +267,24 @@ body {
   background-color: #ffffff;
 }
 
-.offer-start-price {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333;
-  background-color: #ffffff;
-}
-
-.offer-card-button {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
-  background-color: #000000;
+.button-catalog {
+  color: #FFFFFF;
+  background: #756157;
+  border-radius: 4px;
   text-decoration: none;
 }
 
-.offer-card-favorite-button-in {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #000000;
+.button-catalog-favorite {
+  color: #FFFFFF;
+  background: #82B3D3;
+  border-radius: 4px;
   text-decoration: none;
 }
 
-.offer-card-favorite-button {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #000000;
+.button-catalog-in-favorite {
+  color: #FFFFFF;
+  background: #7DB54F;
+  border-radius: 4px;
   text-decoration: none;
 }
 
