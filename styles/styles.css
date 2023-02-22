@@ -29,15 +29,64 @@ body {
   text-decoration: none;
 }
 
-.navigation-button {
+.button {
+  box-sizing: border-box;
+  padding: 8px 16px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  text-align: center;
+  font-family: inherit;
   text-transform: uppercase;
-  color: #ffffff;
-  background-color: #756157;
   text-decoration: none;
+  overflow-wrap: anywhere;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82b3d3;
+  border: none;
+  border-radius: 4px;
+  outline-color: #333333;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button:disabled {
+  background-color: #e5e5e5;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #68a2ca;
+}
+
+.button:active {
+  background-color: #82b3d3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-brown:hover,
+.button-brown:focus {
+  background-color: #615048;
+}
+
+.button-brown,
+.button-brown:active {
+  background-color: #756157;
+}
+
+.button-green:hover,
+.button-green:focus {
+  background-color: #6c9e42;
+}
+
+.button-green,
+.button-green:active {
+  background-color: #7db54f;
+}
+
+.button-big {
+  padding: 8px 50px;
+  font-size: 20px;
+  line-height: 36px;
 }
 
 .main-header-hero {
@@ -156,14 +205,6 @@ body {
   line-height: 23px;
 }
 
-.button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
-  background-color: #82b3d3;
-}
-
 .button-default {
   font-weight: 700;
   font-size: 16px;
@@ -202,15 +243,6 @@ body {
 .offer-hotel-item,
 .offer-start-price {
   color: #333333;
-}
-
-.button-catalog {
-  color: #ffffff;
-  font-weight: 700;
-  background: #756157;
-  border-radius: 4px;
-  text-transform: uppercase;
-  text-decoration: none;
 }
 
 .button-catalog-favorite {
