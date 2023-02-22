@@ -64,8 +64,11 @@
             <a class="breadcrumbs-link">Гостиницы</a>
           </li>
         </ul>
+
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+        </form>
       </header>
+
       <section class="catalog-items">
         <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
         <fieldset class="catalog-filter-group">
@@ -117,106 +120,108 @@
         <button class="button" type="submit">Применить</button>
         <button class="button button-default" type="reset">Сбросить</button>
         </form>
-        <h3 class="inner-header-title-result">Найдено гостиниц: 38</h3>
-        <select class="select-control" aria-label="Сортировка.">
-          <option value="cheap">Сначала дешевые</option>
-          <option value="expensive">Сначала дорогие</option>
-          <option value="popular">Сначала популярные</option>
-        </select>
-        <div>
-          <a class="sort-button sort-button-bar sort-button-current" href="#!">
-            <span class="visually-hidden">Показать плитку.</span>
-          </a>
-          <a class="sort-button sort-button-cards" href="#!">
-            <span class="visually-hidden">Показать карточки.</span>
-          </a>
-          <a class="sort-button sort-button-list" href="#!">
-            <span class="visually-hidden">Показать список.</span>
-          </a>
-        </div>
-        <ul class="offer-list">
-          <li class="offer-card">
-            <a class="offer-card-link" href="#!">
-              <img class="offer-card-image" src="images/catalog/catalog-1.jpg" width="300" height="212"
-                alt="Каньон и звездное небо.">
-              <h4 class="offer-card-title">Amara Resort & Spa</h4>
+
+        <section class="catalog-items">
+          <h3 class="inner-header-title-result">Найдено гостиниц: 38</h3>
+          <select class="select-control" aria-label="Сортировка.">
+            <option value="cheap">Сначала дешевые</option>
+            <option value="expensive">Сначала дорогие</option>
+            <option value="popular">Сначала популярные</option>
+          </select>
+          <div>
+            <a class="sort-button sort-button-bar sort-button-current" href="#!">
+              <span class="visually-hidden">Показать плитку.</span>
             </a>
-            <p class="offer-hotel-item">Гостиница</p>
-            <p class="offer-start-price">От 4000р</p>
-            <a class="button-catalog" href="#!">Подробнее</a>
-            <a class="button-catalog button-catalog-favorite" href="#!">В избранное</a>
-            <b class="offer-rating">Рейтинг: 8,5</b>
-            <span class="visually-hidden">
-              <p>Четырехзвездочный отель.</p>
-            </span>
-          </li>
-          <li class="offer-card">
-            <a class="offer-card-link" href="offer.html">
-              <img class="offer-card-image" src="images/catalog/catalog-2.jpg" width="300" height="212"
-                alt="Каньон с радугой на фоне вечернего неба.">
-              <h4 class="offer-card-title">Villas at Poco Diablo</h4>
+            <a class="sort-button sort-button-cards" href="#!">
+              <span class="visually-hidden">Показать карточки.</span>
             </a>
-            <p class="offer-hotel-item">Гостиница</p>
-            <p class="offer-start-price">От 5000р</p>
-            <a class="button-catalog" href="#!">Подробнее</a>
-            <a class="button-catalog button-catalog-in-favorite" href="#!">В избранном</a>
-            <b class="offer-rating">Рейтинг: 9,2</b>
-            <span class="visually-hidden">
-              <p>Четырехзвездочный отель.</p>
-            </span>
-          </li>
-          <li class="offer-card">
-            <a class="offer-card-link" href="offer.html">
-              <img class="offer-card-image" src="images/catalog/catalog-3.jpg" width="300" height="212"
-                alt="Высокий каньон на фоне голубого неба.">
-              <h4 class="offer-card-title">Desert Quail Inn</h4>
+            <a class="sort-button sort-button-list" href="#!">
+              <span class="visually-hidden">Показать список.</span>
             </a>
-            <p class="offer-hotel-item">Гостиница</p>
-            <p class="offer-start-price">От 2500р</p>
-            <a class="button-catalog" href="#!">Подробнее</a>
-            <a class="button-catalog button-catalog-favorite" href="#!">В избранное</a>
-            <b class="offer-rating">Рейтинг: 6,9</b>
-            <span class="visually-hidden">
-              <p>Трехзвездочный отель.</p>
-            </span>
-          </li>
-          <li class="offer-card">
-            <a class="offer-card-link" href="offer.html">
-              <img class="offer-card-image" src="images/catalog/catalog-4.jpg" width="300" height="212"
-                alt="Каньон в свете звездного неба.">
-              <h4 class="offer-card-title">GreenTree Inn</h4>
-            </a>
-            <p class="offer-hotel-item">Гостиница</p>
-            <p class="offer-start-price">От 1500р</p>
-            <a class="button-catalog" href="#!">Подробнее</a>
-            <a class="button-catalog button-catalog-favorite" href="#!">В избранное</a>
-            <b class="offer-rating">Рейтинг: 5,0</b>
-            <span class="visually-hidden">
-              <p>Двухзвездочный отель.</p>
-            </span>
-          </li>
-        </ul>
-        <ul class="pagination">
-          <li class="pagination-item">
-            <a class="pagination-link pagination-current">1</a>
-          </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#!">2</a>
-          </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#!">3</a>
-          </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#!">4</a>
-          </li>
-          <li class="pagination-item">
-            <a class="pagination-link pagination-more pangination-disabled" href="#!">...</a>
-          </li>
-          <li class="pagination-item">
-            <a class="pagination-link" href="#!">10</a>
-          </li>
-        </ul>
-      </section>
+          </div>
+          <ul class="offer-list">
+            <li class="offer-card">
+              <a class="offer-card-link" href="#!">
+                <img class="offer-card-image" src="images/catalog/catalog-1.jpg" width="300" height="212"
+                  alt="Каньон и звездное небо.">
+                <h4 class="offer-card-title">Amara Resort & Spa</h4>
+              </a>
+              <p class="offer-hotel-item">Гостиница</p>
+              <p class="offer-start-price">От 4000р</p>
+              <a class="button-catalog" href="#!">Подробнее</a>
+              <a class="button-catalog button-catalog-favorite" href="#!">В избранное</a>
+              <b class="offer-rating">Рейтинг: 8,5</b>
+              <span class="visually-hidden">
+                <p>Четырехзвездочный отель.</p>
+              </span>
+            </li>
+            <li class="offer-card">
+              <a class="offer-card-link" href="offer.html">
+                <img class="offer-card-image" src="images/catalog/catalog-2.jpg" width="300" height="212"
+                  alt="Каньон с радугой на фоне вечернего неба.">
+                <h4 class="offer-card-title">Villas at Poco Diablo</h4>
+              </a>
+              <p class="offer-hotel-item">Гостиница</p>
+              <p class="offer-start-price">От 5000р</p>
+              <a class="button-catalog" href="#!">Подробнее</a>
+              <a class="button-catalog button-catalog-in-favorite" href="#!">В избранном</a>
+              <b class="offer-rating">Рейтинг: 9,2</b>
+              <span class="visually-hidden">
+                <p>Четырехзвездочный отель.</p>
+              </span>
+            </li>
+            <li class="offer-card">
+              <a class="offer-card-link" href="offer.html">
+                <img class="offer-card-image" src="images/catalog/catalog-3.jpg" width="300" height="212"
+                  alt="Высокий каньон на фоне голубого неба.">
+                <h4 class="offer-card-title">Desert Quail Inn</h4>
+              </a>
+              <p class="offer-hotel-item">Гостиница</p>
+              <p class="offer-start-price">От 2500р</p>
+              <a class="button-catalog" href="#!">Подробнее</a>
+              <a class="button-catalog button-catalog-favorite" href="#!">В избранное</a>
+              <b class="offer-rating">Рейтинг: 6,9</b>
+              <span class="visually-hidden">
+                <p>Трехзвездочный отель.</p>
+              </span>
+            </li>
+            <li class="offer-card">
+              <a class="offer-card-link" href="offer.html">
+                <img class="offer-card-image" src="images/catalog/catalog-4.jpg" width="300" height="212"
+                  alt="Каньон в свете звездного неба.">
+                <h4 class="offer-card-title">GreenTree Inn</h4>
+              </a>
+              <p class="offer-hotel-item">Гостиница</p>
+              <p class="offer-start-price">От 1500р</p>
+              <a class="button-catalog" href="#!">Подробнее</a>
+              <a class="button-catalog button-catalog-favorite" href="#!">В избранное</a>
+              <b class="offer-rating">Рейтинг: 5,0</b>
+              <span class="visually-hidden">
+                <p>Двухзвездочный отель.</p>
+              </span>
+            </li>
+          </ul>
+          <ul class="pagination">
+            <li class="pagination-item">
+              <a class="pagination-link pagination-current">1</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#!">2</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#!">3</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#!">4</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link pangination-disabled" href="#!">...</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#!">10</a>
+            </li>
+          </ul>
+        </section>
     </main>
 
     <footer class="page-catalog-footer">
