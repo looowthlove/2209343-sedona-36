@@ -49,8 +49,28 @@ body {
   user-select: none;
 }
 
+.button-reset {
+  display: inline-block;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  line-height: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  text-transform: uppercase;
+}
+
+.button-reset:hover,
+.button-reset:active {
+  color: #ffffff;
+}
+
 .button:disabled {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 }
 
 .button:hover,
